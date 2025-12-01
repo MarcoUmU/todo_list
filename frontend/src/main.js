@@ -1,4 +1,4 @@
-const API_URL = 'https://todo-list-68ag.onrender.com';
+const API_URL = 'https://todo-list-68ag.onrender.com/api/tareas';
 
 function manejarBusqueda(event) {
   const termino = event.target.value;
