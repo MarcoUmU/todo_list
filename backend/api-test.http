@@ -1,0 +1,27 @@
+### 
+GET http://localhost:3000/api/tareas
+
+###
+
+POST http://localhost:3000/api/tareas
+Content-Type: application/json
+
+{
+    "titulo": "Comer",
+    "descripcion": "Tacos al pastor"
+}
+
+###
+
+PUT http://localhost:3000/api/tareas/692bb48a17b4033cc6455dba
+Content-Type: application/json
+
+{
+    "titulo": "Jugar",
+    "completada": true
+}
+
+
+###
+
+DELETE http://localhost:3000/api/tareas/692bb48a17b4033cc6455dba
